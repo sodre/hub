@@ -30,6 +30,7 @@ Installation
 The `hub` executable has no dependencies, but since it was designed to wrap
 `git`, it's recommended to have at least **git 1.7.3** or newer.
 
+
 #### Homebrew
 
 `hub` can be installed through [Homebrew/Linuxbrew](https://docs.brew.sh/Installation):
@@ -53,6 +54,17 @@ or alternatively `hub` can be installed through [Chocolatey](https://chocolatey.
 
 ``` sh
 > choco install hub
+```
+
+#### Conda
+
+`hub` can be installed through [conda/conda-forge](https://anaconda.org/conda-forge/hub) on Linux, macOS and Windows:
+
+``` sh
+$ conda install -c conda-forge hub 
+$ hub version
+git version 
+hub version 
 ```
 
 #### Fedora Linux
